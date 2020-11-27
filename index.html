@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <nav>
@@ -19,29 +17,33 @@
                     <img src="img/logo.jpg" alt="">
                 </div>
                 <div class="enlaces-header">
-                    <a href="#">Inicio</a>
-                    <a href="#">Inicio</a>
-                    <a href="#">Inicio</a>
-                    <a href="#">Inicio</a>
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#contenidoheader">Anuncios</a>
+                    <a href="index.html#acercade">Acerca De</a>
+                    <a href="index.html#canje">Canje</a>
+                    <a href="index.html#servicios">Servicios</a>
                 </div>
                 <div class="hamburguer">
                     <i class="fas fa-bars"></i>
                 </div>
             </section>
         </nav>
-        <div class="contenedor">
+
+
+        <div id="contenidoheader" class="contenedor">
             <section class="contenido-header">
                 <section class="textos-header">
                     <h1>Cuida de tu planeta como cuidas de tu mascota</h1>
                     <p>Por que las mascotas, son felices en un mundo sin basura</p>
-                    
                 </section>
                 <img src="img/mascotas.jpg" alt="">
             </section>
         </div>
     </header>
+
+
     <section class="about-us">
-        <div class="contenedor1">
+        <div id="acercade" class="contenedor1">
             <h2 class="titulo">Nuestros Valores</h2>
             <div class="contenedor-articulo">
                 <div class="articulo" data-aos="zoom-in-right">
@@ -68,23 +70,26 @@
             </div>
         </div>
     </section>
-    <section class="questions contenedor">
+
+
+
+    <section  id="canje"  class="questions contenedor">
         <section class="textos-questions">
-            <h1>Cange de premios</h1>
-            <p>La empresa de dedica al cageo de placas y premios para mascotas a cambio de pet.</br> 
+            <h1>Canje de premios</h1>
+            <p>La empresa se dedica al canjeo de placas y premios para mascotas a cambio de pet.</br> 
             el proposito es cuidar em ambiente y cuidar del planeta vean nuetros premios en la pagina</p>
-            <a href="premios.html">Premios</a>
+            <a href="#">Premios</a>
         </section>
         <img src="img/dueños.jpg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
     </section>
 
     <section class="contenedor1 services">
         <img src="img/duenos2.jpg" alt="" data-aos="zoom-out-right" data-aos-duration="1000">
-        <div class="box-skills">
-            <h4><i class="far fa-check-circle"></i> Cuidamos de los animales</h4>
-            <h4><i class="far fa-check-circle"></i> Cuidamos del planeta</h4>
-            <h4><i class="far fa-check-circle"></i> Creamos conciencia</h4>
-            <h4><i class="far fa-check-circle"></i> Ganamos premios</h4>
+        <div id="servicios" class="box-skills">
+            <h4><i class="far fa-check-circle"></i> Canjeo de PET</h4>
+            <h4><i class="far fa-check-circle"></i> Placas Certificadas</h4>
+            <h4><i class="far fa-check-circle"></i> Registro de Mascotas</h4>
+            <h4><i class="far fa-check-circle"></i> Monitoreo de tu mascota</h4>
         </div>
     </section>
 
@@ -122,5 +127,4 @@
     <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
